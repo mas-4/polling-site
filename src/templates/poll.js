@@ -31,6 +31,7 @@ export default ({ data }) => {
         {data.file.childImageSharp &&
         <PrismaZoom>
           <Img fluid={data.file.childImageSharp.fluid} />
+          <h5>Double click, or mouse wheel, to zoom</h5>
         </PrismaZoom>
         }
       </div>
