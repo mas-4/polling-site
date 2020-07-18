@@ -30,6 +30,38 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <SEO title="Home" />
+      <h3>
+        Nate Rakich's <a href="https://fivethirtyeight.com/features/how-to-read-2020-polls-like-a-pro/">How To Read Polls in 2020</a> has the following tips:
+      </h3>
+
+      <ol>
+        <li>Check the pollster’s track record.</li>
+        <li>Avoid comparisons between pollsters.</li>
+        <li>Note who’s being polled.</li>
+        <li>Pay attention to the margin of error.</li>
+        <li>Consider the source.</li>
+        <li>If a poll has an odd result, there might be a reason for it.</li>
+        <li>That said, don’t try to outguess or “unskew” the polls. </li>
+        <li>Heed averages, not outliers.</li>
+        <li>In the aggregate, polls are pretty accurate but not perfect.</li>
+        <li>Polls are snapshots, not predictions.</li>
+      </ol>
+      <p>
+        The purpose of this site is so I can more easily accomplish #2. I want
+        to compare a poll to that pollster's previous polls. #'s 1 and 3-10 are
+        not at all the purpose of this site. Toward that end, here are some
+        helpful links:
+      </p>
+
+      <ul>
+        <li><a href="https://projects.fivethirtyeight.com/pollster-ratings/">538's Pollster Ratings</a></li>
+        <li><a href="https://projects.fivethirtyeight.com/polls/">538's Poll Data</a></li>
+        <li><a href="https://projects.economist.com/us-2020-forecast/president">Economist's Forecast</a></li>
+        <li><a href="https://270towin.com">270 to Win</a></li>
+      </ul>
+
+      <p>And now to the polls!</p>
+
       <h1>National Polling</h1>
       <ul>
         <li><Link to="/national/since_april">All Polls Since April</Link></li>
