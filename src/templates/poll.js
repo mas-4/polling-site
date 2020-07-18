@@ -28,10 +28,10 @@ export default ({ data }) => {
       <SEO title={title} />
       <div>
         <h1>{title}</h1>
+        <h5>Double click, or mouse wheel, to zoom</h5>
         {data.file.childImageSharp &&
         <PrismaZoom>
           <Img fluid={data.file.childImageSharp.fluid} />
-          <h5>Double click, or mouse wheel, to zoom</h5>
         </PrismaZoom>
         }
       </div>
