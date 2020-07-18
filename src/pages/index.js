@@ -36,7 +36,7 @@ const IndexPage = ({ data }) => {
         <li><Link to="/national/all">All Polls</Link></li>
       </ul>
       <h1>Individual National Pollsters</h1>
-      <ul>
+      <ul style={{ columns: 2 }}>
         {pollster_links.map((node) => (
           <li key={node.name}>
             <Link to={node.slug}>
@@ -46,7 +46,7 @@ const IndexPage = ({ data }) => {
         ))}
       </ul>
       <h1>State Polls</h1>
-      <ul>
+      <ul style={{ columns: 2 }}>
         {state_links.map((node) => (
           <li key={node.name}>
             <Link to={node.slug}>
