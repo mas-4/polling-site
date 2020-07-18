@@ -21,7 +21,9 @@ export default ({ data }) => {
       <SEO title="temp" />
       <div>
         <h1>{title}</h1>
-        <Img fluid={data.file.childImageSharp.fluid} />
+        {data.file.childImageSharp &&
+          <Img fluid={data.file.childImageSharp.fluid} />
+        }
       </div>
     </Layout>
   )
