@@ -17,9 +17,9 @@ export default ({ data }) => {
     title = pollsters[data.file.name];
   } else if (data.file.name in states) {
     title = states[data.file.name];
-  } else if (data.file.name == 'all') {
+  } else if (data.file.name === 'all') {
     title = "All Polls";
-  } else if (data.file.name == 'since_april') {
+  } else if (data.file.name === 'since_april') {
     title = "All Polls Since April";
   }
 
