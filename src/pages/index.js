@@ -79,7 +79,9 @@ const IndexPage = ({ data }) => {
       <ul>
         <li><a href="https://projects.fivethirtyeight.com/pollster-ratings/">538's Pollster Ratings</a></li>
         <li><a href="https://projects.fivethirtyeight.com/polls/">538's Poll Data</a></li>
+        <li><a href="https://projects.fivethirtyeight.com/2020-election-forecast/">538's 2020 Forecast</a></li>
         <li><a href="https://projects.economist.com/us-2020-forecast/president">Economist's Forecast</a></li>
+        <li><a href="https://projects.jhkforecasts.com/presidential-forecast/">JHK Forecast</a></li>
         <li><a href="https://270towin.com">270 to Win</a></li>
       </ul>
 
